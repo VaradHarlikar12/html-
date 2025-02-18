@@ -1,0 +1,18 @@
+td{
+    border:2px solid black;
+    border-color: black;
+}
+th{
+    border:2px solid  lightgrey;
+    border-color: black;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border-color: black;
+    border-style: groove;
+    border-radius: 3px;
+}
+article{
+    background-color:black;
+}

@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-image: url("projectelelments/images/p1bg.jpg");
+  height: 87vh;
+  position: relative;
+  background-position: center center;
+  background-size: max(1000px, 100vw);
+  background-repeat: no-repeat;
+}
+body {
+  background-color: black;
+}
+.main .box {
+  position: absolute;
+  top: 0;
+  height: 80vh;
+  width: 100%;
+  opacity: 0.44;
+  background-color: solid black;
+  font-style: "poppins";
+}
+nav {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90vw;
+}
+nav .button-container {
+  font-size: x-large;
+  display: flex;
+  padding: 12px;
+  gap: 15px; /* Adjust the gap between buttons as needed */
+}
+nav .button-container {
+  font-size: x-large;
+  display: flex;
+  padding: 12px;
+  gap: 15px; /* Adjust the gap between buttons as needed */
+}
+/* nav .button-container button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* netflix logo */
+nav span img {
+  color: red;
+  width: 130px;
+  /* filter: brightness(2050%) contrast(150%); */
+}
+.hero {
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  gap: 25px;
+}
+nav img {
+  z-index: 10;
+  position: relative;
+}
+/* span tags text defination */
+.hero > :nth-child(1) {
+  font-size: 51px;
+  font-weight: 700;
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+.hero > :nth-child(3) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+.separator {
+  height: 12px;
+  background-color: grey;
+}
+.btn {
+  background-color: rgba(248, 243, 243, 0.021);
+  opacity: 0.8;
+  color: white;
+  cursor: pointer;
+  padding: 10px 10px;
+  border: black 2px;
+  border-radius: 9px;
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  padding: 3px 25px;
+  border-radius: 4px;
+}
+.herobtns {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.main input {
+  font-size: 16px;
+  font-weight: 900;
+  padding: 14px 12px 13px 12px;
+  background-color: rgba(23, 23, 23, 0.2);
+  text-align: center;
+  border: 0.8px solid rgba(29, 26, 25, 0.5);
+  color: black;
+}

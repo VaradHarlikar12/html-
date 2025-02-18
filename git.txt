@@ -1,0 +1,15 @@
+learning gits new things
+
+to go back to an commit i need to just :
+git log 
+git reset copy the specific location i want to go back to 
+//only problem is that when i travel back to the last commit all those commits between will also be unstaged
+
+
+git stash:so basically what it does is that it keep it at the back.
+i can use this like when i want to keep the unstaged changes meaning like changes 
+i will apply but right now they should be away from the code
+
+git pop:used to pop out the stash area work 
+git stash clear: this will erase all the changes on the back meaning 
+i can't access it anymore 

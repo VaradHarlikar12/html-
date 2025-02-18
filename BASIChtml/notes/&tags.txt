@@ -1,0 +1,19 @@
+&lt;:- displays this symbol <
+&gt;:- displays this symbol >
+
+example:
+&lt;p&gt;&lt;/p&gt;
+
+
+&copy -used for copyright logo .generally used in footer 
+  
+example
+copyright &copy
+
+
+&nbsp:-used to put space in between of words
+ example
+ copyright &copy;&nbsp;&nbsp
+
+
+&amp:-used to put & symbol

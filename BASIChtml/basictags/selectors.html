@@ -1,0 +1,92 @@
+
+<!-- https://web.dev/learn/css/pseudo-classes -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector  */
+        div{
+            /* background-color: red; */
+        }
+
+        /* Class Selector  */
+        .red{
+            background-color: red;
+        }
+
+        /* Id Selector */
+        #green{
+            background-color: green;
+        }
+
+        /* Child Selectors  
+        means the p tag should be in div tag(direct child)
+        */
+        div > p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Descendant Selector  
+        means the p that should be in div even if it is in any other tag inside div tag 
+        */
+        div p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Universal Selector */
+        * {
+            margin:0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector*/
+        /* visited changes the color of the tag once it is visited  */
+        a:visited{
+            color: yellow
+        }
+        /* when link is visited once it changes it color.imp can visit once the color change permanent */
+        a:link {
+            color: green;
+        }
+        /* when we click on the data of tag */
+        a:active{
+            background-color: red;
+        }
+        /*whenever cursor hovers to the tag it wil change color    */
+        a:hover{
+            background-color: yellow;
+        }
+
+        /* where ever first child is p */
+        p:first-child{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I am first</p>
+        <p>I am second</p>
+    </main>
+    <div class="red">
+        I am a div
+        <article>
+
+            <p>I am a para inside div</p>
+        </article>
+    </div>
+
+    <div id="green">
+        I am another div
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook2.com">Go to Facebook</a>
+</body>
+</html>

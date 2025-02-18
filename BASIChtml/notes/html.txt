@@ -1,0 +1,49 @@
+HTML IS AN HYPERTEXT MARKUP LANGUAGE WHICH NOT AN PROGRAMMING LANGUAGE
+IT IS USED TO CREAT WEB PAGE DESIGNS
+ IT CONSIST OF TAGS AND ATTRIBUTES 
+
+ Text-related tags:
+<h1> to <h6>: Headings (from largest to smallest).
+<p>: Paragraph.
+<a>: Anchor tag (used for links).
+<strong>: Defines important text (bold).
+<em>: Defines emphasized text (italic).
+
+Media-related tags:
+<img>: Embeds images.
+<audio>: Embeds audio files.
+<video>: Embeds video files.
+
+Container and structure tags:
+<div>: Defines a division or section (block-level).
+<span>: Defines a small section of content (inline).
+<section>: Represents a section of content.
+<article>: Defines independent content (like an article).
+
+
+<li>: List item.
+
+Table tags:
+<table>: Defines a table.
+<tr>: Defines a table row.
+<td>: Defines a table cell.
+<th>: Defines a table header cell.
+
+List tags:
+<ul>: Unordered (bulleted) list:-this list is unorder so this can't have an
+type rather then type="square"
+<ol>: Ordered (numbered) list:-this list is order here we can use
+types like 
+a
+A
+i
+I
+1
+ #############################
+ Form tags:
+<form>: Defines a form for user input.:-used to create forms
+<label>:used to give label to an id 
+<input>: Defines an input field.
+syntax:-<input type="text||color||checkbox" id="" name="" placeholder="">
+<textarea>:-used to create a space to write for user
+<button>: Defines a clickable button.

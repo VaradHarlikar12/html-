@@ -1,0 +1,17 @@
+container properties are:
+justify-content
+align-items
+display:flex
+and sub of this properties 
+flex-flow:-this does both direction and wrap at one flex-flow:row wrap-reverse here row is direction 
+and wrap-reverse is wrap 
+flex-wrap
+flex-direction
+gap
+
+
+*item properties
+order:-it sorts or we can say places items as per their order higher order atleast and last at first
+flex-grow
+flew-shrink
+align-self

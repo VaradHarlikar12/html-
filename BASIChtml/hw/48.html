@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 80px;
+            width: 80px;
+            background-color: red;
+            border-radius: 70px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation:animatex 3.5s linear 1s infinite, 
+                      animatey 3.5s cubic-bezier(0, 0, 0.69, 1.03) 1s infinite alternate;
+        }
+
+        .container {
+            position: relative;
+            height: 90vh;
+            width: 90vw;
+            background-color: blue;
+        }
+        @keyframes animatex{
+            from{
+                left: 0%;
+            }
+            to{
+                left: 30%;
+            }
+        }
+        @keyframes animatey{
+            from{
+                bottom: 1%;
+            }
+            to{
+                bottom: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

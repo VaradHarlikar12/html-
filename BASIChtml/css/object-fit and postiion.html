@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Example</title>
+    <style>
+        .container {
+            height: 434px;
+            width: 468px;
+            border: 1px solid black;
+            background-color: aqua;
+            background-color: aqua;
+            background-image: image("img.jpg");  
+            background-position: center center;
+            background-repeat: no-repeat;
+            /* short images only */  
+            background-size: cover; 
+            /* background-size: cover ensures the image covers the entire container without cropping if necessary */
+        }
+        img{
+            height: 434px;
+            width: 468px;
+            border: 2px solid black;
+            object-fit: cover;
+            /* object-fit: cover ensures the image covers the entire container(imgtag is the container here)
+             without,cropping if necessary */
+            object-fit: contain;
+            /* object-fit: contain ensures the entire image is visible within the container, 
+            maintaining aspect ratio and adding empty space if necessary */
+            /* object-position specifies which part of the image 
+            should be visible when it is cropped */
+            object-fit: fill;
+            /* object-fit: fill stretches the image to fill the container, ignoring aspect ratio */
+            object-position: left bottom;
+            object-position: 50% 50%;
+            /* object-position specifies the position of the image inside the container */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <img src="img.jpg"alt=""> -->
+    </div>
+</body>
+</html>

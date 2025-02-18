@@ -1,0 +1,29 @@
+harry tut 21
+first inline style attribute color will be prefered then idselector
+then class attribute then elelment selector then universal selector
+
+ inlinestyle>id selector  >classattritbute >element selector>universal selector
+
+ importance tag:-this will specify tha it should be used compulsory.it will overwrite inline style as well.
+
+
+ cascade algorithm
+
+ Position and order of appearance: the order in which your CSS rules appear
+Specificity: an algorithm that determines which CSS selector has the strongest match
+Origin: the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS
+Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type
+Lets look into all these one by one
+
+
+
+
+
+Specificity Calculation
+To calculate specificity, assign a value to each part of the selector:
+
+Universal Selector: 0
+Element selectors and pseudo-elements: 1
+Class selectors, attribute selectors, and pseudo-classes: 10
+ID selectors: 100
+Inline styles: 1000

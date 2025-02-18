@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+ 
+</head>
+<style> 
+  body{
+    background-color: blue;
+  }
+@media only screen and (max-width:445px){
+  body{
+        background-color:red;
+    }
+} 
+.boxes{
+    display: flex;
+}  
+.box{
+    width: 344px;
+    height: 344px;
+    padding:3px;
+    margin: 3px;
+    background-color: steelblue;
+}
+</style>
+<body> 
+<div class="box boxes">box1</div>
+<div class="box boxes">box2</div>
+<div class="box boxes">box3</div>
+</body>
+</html>
+/*
+media types 
+screen:-screen 
+all:-means includes all types
+printer:-
+speech device:-  */

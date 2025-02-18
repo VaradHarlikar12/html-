@@ -1,0 +1,44 @@
+CSS means cascating style sheets
+TYPES
+Inline :css which is written in same file with other designcode
+external :the css which is written in different file but used in an differnt file using link ATTRIBUTE
+
+important
+external css should be linked in head only
+
+##############FONT#############
+font-size defines font size like smaller,x-small,xx-small,large,larger,medium,x-large,xx-large
+font-family-it defined the the type of fonts with options so that if one is not availabile on site other works
+
+
+incase we use two div in body with width 50% we can't figure out which one is where .
+in such cases we use 'id'to identify this containers
+
+while define this contianers '#' should be use complesurely
+
+
+
+***************POSTION DEFINING ATTRIBUTES**************
+display:flex is used to align containers ,objects side by side obj1-obj2
+text-align :-aligns TEXT in the postion (center,left,right)
+align-items:- align containers in terms of hieghtwise like (up,down,center)
+justify-content:-align containers in terms of width like (left,right,center)
+
+
+*******************************************id***************************************************************
+id is used to specify characters of specific contianers 
+'#' is important while creating a id
+************class*******************************************************************************************
+classes are used to define a characteristics which can be appiled to multiple attributes,tags at a time.
+example <p> and <h1>
+ '.' is important to use while creating a classes
+ just like c++ classes this class are also blueprints used to define  objects
+
+
+
+
+************************************************************************************************************
+ px:-pixel on the screen this depends on resolution of the screen
+ vw,vh:-depends on device specification
+ em:-mutiple the value with inherited value which will be given to us
+ rem:-multiple the rem value with inherited value from root element(like html{})

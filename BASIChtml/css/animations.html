@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATION</title>
+</head>
+<style>
+   
+.container{
+    height: 45vh;
+    width: 50vw;
+    background-color: blue;
+}
+.box{
+    height: 5vh;
+    width: 5vw;
+    position: relative;
+    left:5vw;
+    /* background-color: red; */
+    /* animation-name: varad; */
+    /* animation-duration: 3s; */
+    /* animation-iteration-count: 5; */
+    /* animation-play-state: paused; */
+    /* animation-fill-mode: forwards; */
+    /* animation-direction: normal; */
+    /* animation-timing-function:cubic-bezier(0.97, 0.96, 0, 0.97); */
+    /* animation-delay: 0.3s;  */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation:varad 2s cubic-bezier(0.97, 0.96, 0, 0.97) 10 normal,
+              v2    3s ease-in-out  10 normal;  
+} 
+
+@keyframes varad{
+     from{
+        background-color: red;
+        }
+     to{ 
+        transform: translateX(1000px);
+        background-color: rgb(2, 2, 21);
+     }
+}
+@keyframes v2{ 
+    0%{
+        transform: rotate(100deg);
+    }
+    25%{
+        transform: rotate(200deg);
+    }
+    50%{
+        transform: rotate(400deg);
+    }
+    75%{
+        transform: rotate(600deg);
+    }
+}
+</style>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

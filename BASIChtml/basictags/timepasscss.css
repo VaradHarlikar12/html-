@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    background-color: lightblue;
+    margin-left: 3px;
+}
+div{
+    margin: 5px;
+    text-transform: capitalize;
+    color:black;
+    border-color: rgb(15, 15, 15);
+    border-radius: 1.5px;
+    /* border-style :dashed; */
+    /* background-color:  ; */
+}
+
+ol{
+    margin-left: 50px;
+    padding-left: 0%;
+}
+
+h3{
+    color:black;
+}

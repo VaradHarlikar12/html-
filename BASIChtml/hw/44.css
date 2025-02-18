@@ -1,0 +1,181 @@
+
+   :root{
+    --fontsize:25px;
+    --fontfamily:poppins;
+    --capsulecolor:rgb(28, 246, 246);
+   }
+   *{
+        padding: 0%;
+        margin: 0%;
+    }
+    /* .container{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        justify-content:space-betweem;
+        border: black solid 3px;
+        width: 99.5vw;
+        height: 99.2vh;
+        margin:2px;
+    } */
+    nav{
+    /* position:sticky; */
+    /* background-color: transparent; */
+    /* opacity:40%; */
+    /* backdrop-filter: blur(12px); */
+    border-radius: 30px;
+    }
+    ul li{
+        list-style-type: none;
+        position: relative;
+        /* opacity: 100%; */
+        text-decoration: wavy;
+    }
+   .item:hover{
+    background-color: rgba(0, 0, 139, 0.056);
+    border-radius: 22px;
+   }
+    ul li:first-child{
+        font-size: 38px;
+        color: black;
+        font-weight: bolder;
+        /* position: relative; */
+        left: 112px;
+        top: 2px;
+    }
+    ul li:nth-child(2){
+        /* position: relative; */
+        bottom: 24px;
+        left: 52vw;
+        font-size: var(--fontsize);
+        font-family:var(--fontfamily);
+    }
+    ul li:nth-child(3){
+        /* position: relative; */
+        bottom: 62px;
+        left:59.7vw;
+        font-size: var(--fontsize);
+        font-family:var(--fontfamily);
+    }
+    ul li:nth-child(4){
+        /* position:relative; */
+        bottom: 97px;
+        left: 69vw;
+        font-size: var(--fontsize);
+        font-family:var(--fontfamily);
+    }
+    ul li:nth-child(5){
+        /* position:relative; */
+        bottom: 135px;
+        left: 77vw;
+        font-size: var(--fontsize);
+        font-family:var(--fontfamily);
+    }
+    ul li:nth-child(6){
+        /* position:relative; */
+        bottom: 173.2px;
+        left: 84vw;
+        font-size: var(--fontsize);
+        font-family:var(--fontfamily);
+    }
+    ul li:nth-child(7){
+        left: 94vw;
+        bottom: 255px;
+        font-family:var(--fontfamily);
+    }
+    ul li:nth-child(8){
+        position: relative;
+        bottom:280px;
+        left: 96vw;
+    }
+    ul li:nth-child(9){
+        position: relative;
+        bottom: 305px;
+        left:56.2vw;
+    }
+    ul li:nth-child(10){
+        position: relative;
+        bottom: 330px;
+        left:66.4vw;
+    }
+    ul li:nth-child(11){
+        position: relative;
+        bottom: 354.6px;
+        left:74.7vw;
+    }
+    ul li:nth-child(12){
+        position: relative;
+        bottom: 377px;
+        left:81.2vw;
+    }
+    ul li:nth-child(13){
+        position: relative;
+        bottom: 400px;
+        left:91.7vw;
+    }
+    ul li:nth-child(14){
+        position: relative;
+        left:79vw;
+        bottom: 8px;
+    }
+    /* .paragraph1{
+        transition-duration: 3s;
+        transform: translateX(0);
+        transition-property: transform;
+        transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition-delay: 2s;
+    ;
+        position:relative;
+        bottom: 67px;
+        display: inline;
+        left: 23vw;
+        font-size:73px;
+        font-family:'poppins','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 20px;
+        height: 20px;
+    } */
+    .paragraph1 {
+        transform: translateX(0); /* Initial state */
+        transition: transform 5s cubic-bezier(0.165, 0.84, 0.44, 1); /* Smooth transition */
+        transition-delay: 5s; /* Delay before animation starts */
+        position: relative;
+        left: 7vw; 
+        /* Maintain this if intentional */
+        font-size: 73px;
+        bottom: 67px;
+        font-family: "poppins", sans-serif;
+        color: black;
+      }
+    .transform{
+        transform: translateX(15vw);
+    }
+    .paragraph2{
+        transform: translateX(0); /* Initial state */
+        transition: transform 3s cubic-bezier(0.165, 0.84, 0.44, 1); /* Smooth transition */
+        transition-delay: 2s;
+        position: relative;
+        left:19vw;
+        bottom: 50px;
+        font-size:30px;
+        color: grey;
+        font-weight: 900;
+    }
+    .capsule{
+        position: relative;
+        left: 37vw;
+        top: 25px;
+        font-size:28px;
+        width: 350px;
+        height: 38px;
+        border-radius: 7px;
+        text-align:center;
+        padding: 9px;
+        background-color:var(--capsulecolor);
+        font-weight: 700;
+        color:#fff ;
+    }
+    img{
+        position:relative;
+        top: 55px;
+        left: 10px;
+    }

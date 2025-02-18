@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+</head>
+<style>
+    .container{
+        width: 50vw;
+        height:40vh;
+        background-color: antiquewhite;
+    }
+    .box{
+    background-color: aquamarine;
+    width:5vw;
+    height:4vh;
+    /* transition-property:backgroundcolor,  transform; 
+    transition-duration:6s;
+    transition-timing-function:ease-in-out;
+    transition-delay:1s; */
+    transition: all 4s cubic-bezier(0.34, 0.29, 0, 0.97) 2s;
+    }
+    .translate{
+        transform: translateX(10vh) translateY(10vh) scale(2);
+        background-color: blue;
+        font-size: x-large;
+    }
+        
+</style>
+<body>
+    <div class="container">
+        <div class="box translate">HELLo</div>
+    </div>
+</body>
+</html>

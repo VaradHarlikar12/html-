@@ -1,0 +1,35 @@
+<!-- write an html and css code style a paragraph inside div which contains  5 paragraphs.
+ the first paragraph should have text color red and background color yellow.
+ while other paragraphs should have background color blue and text color white.
+ the html code should not be disturbed-->
+  <!DOCTYPE html>
+  <html lang="en">
+    <style>
+      
+      div p:first-child{
+        background-color:rgb(255, 255, 0);
+        color:rgb(255, 0, 0);
+      }
+      div p{
+        background-color: blue;
+        color: white;
+      }
+      </style>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere alias aut, inventore qui unde architecto veritatis quod eos doloremque quae.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere alias aut, inventore qui unde architecto veritatis quod eos doloremque quae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, saepe.</p>
+    </div>
+  </body>
+  </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this website is op">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    :root{
+        --color:pink;
+        --seccolor:aqua;
+        --defpad:20px;
+        --defop:0.4;
+    }
+    .container{
+        background-color: var(--color);
+    }
+    .nav{
+        background-color: var(--seccolor);
+    }
+    ul{
+        display:flex;
+        background-color: rgb(122, 1 2, 49);
+    }
+    ul li{
+        padding: 34px;
+        list-style: none ;
+        border: 3px solid red;
+    }
+    ul li :first-child{
+        background-color: var(--color,green);
+        padding:var(--defpad);
+        opacity:var(--defop);
+    }
+</style>
+<body>
+    <div>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>us</li>
+        </div>
+    </ul>
+    <div>box1</div>
+    <div class="container">hello its me</div>
+    <p class="nav">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius minima saepe reiciendis officiis assumenda dolorum cum, vitae ex numquam harum unde nisi in velit laudantium iste soluta eveniet nobis quasi quidem voluptates provident doloremque recusandae! Aut, perferendis praesentium dignissimos facere hic quaerat dolorem culpa minus.</p>
+</body>
+</html>

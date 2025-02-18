@@ -1,0 +1,42 @@
+*S E O:-SEARCH ENGINE OPTIMIZATION
+google provides user only those websites at top which provides which give 
+good expereince to users like better loadrate,information are the factors affecting it
+
+important vitals
+1)CLS(cumulative layout shift):-
+the layout should not shift its position.it may cause miss clicks causing 
+unplease to users.(when we use width and height the layout doesn't shift)
+
+2)LCP(largest contexual paint):-
+the biggest element in webpage should load fast.
+standard lcp score is 2.5 sec. 
+
+3)FID(first input delay):-
+it means if any user gives an input element .how long it takes to process 
+it.standard 100 milisec.
+
+############################################################################################################
+inline vs block elements
+BLOCK ELEMENTS
+this element aquire the haul space horizontally shift next elemnet in next line.
+until the width of it is not changed.
+
+INLINE ELEMENTS 
+this elements acquire only the space they  
+
+
+
+
+@@@@@@@@@@@@@@I M P@@@@@@@@@
+falvcon (icon asate na  te) 
+codewithharry.com varun ge website sathiw
+
+
+https://fonts.google.com/
+fonts ahet import kela tar stle madhe copy karcha  and links head made copy karcha
+recommend poppins,"Playwrite AU VIC Guides"
+
+
+
+
+box-sizing:border box;:-used to make color not overflow the box 
